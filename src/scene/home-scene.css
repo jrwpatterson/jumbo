@@ -7,3 +7,40 @@
   font-size: 30px;
   margin-left: 20px;
 }
+
+.container {
+  width: 100%;
+  max-width: 400px;
+}
+
+.line-box {
+  position: relative;
+}
+
+.slant-line {
+  transform: rotate(45deg);
+  background-color: #01d277;
+  width: 4px;
+  border-radius: 2px;
+  position: absolute;
+  z-index: 0;
+}
+
+.App-logo {
+  width: 80px;
+  height: 60px;
+  pointer-events: none;
+  z-index: 1;
+}
+
+.App-header {
+  background-image: radial-gradient(#143248, #1b2237);
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  display: relative;
+}

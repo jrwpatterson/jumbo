@@ -55,6 +55,7 @@ declare namespace TMDB {
     belongs_to_collection?: any;
     budget: number;
     genres: Genre[];
+    first_air_date: string;
     homepage: string;
     id: number;
     imdb_id: string;

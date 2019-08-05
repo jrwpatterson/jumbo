@@ -3,14 +3,36 @@
   max-width: 400px;
 }
 
-.upper-container {
+.go-back {
+  position: absolute;
+  color: white;
+  font-size: 30px;
+  left: 20px;
+  top: 20px;
+}
+
+.date-line-holder {
+  display: flex;
+  flex-direction: row;
+}
+
+.date-line-seperator {
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  content: " \B7 ";
+}
+
+.seperator {
   border-bottom-color: lightblue;
   border-bottom-style: solid;
   border-bottom-width: 1px;
 }
 
-.outer-container {
+.details-outer-container {
   justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .poster-container {
@@ -18,13 +40,34 @@
   flex-direction: row;
 }
 
-.movie-title {
+.movie-title-area-title {
   font-size: 30px;
+}
+
+.movie-title-area {
   color: white;
-  left: 50px;
+  padding-left: 40px;
   position: relative;
   justify-self: flex-start;
   align-self: flex-start;
+  text-align: start;
+}
+
+.movie-title-title {
+  font-size: 20px;
+  margin-top: 20px;
+  text-align: start;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.movie-title-body {
+  font-size: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 20px;
+  text-align: start;
+  color: white;
 }
 
 .poster {

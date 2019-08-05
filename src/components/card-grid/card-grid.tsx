@@ -26,7 +26,7 @@ export const CardGrid = (props: {
             key={movie.id}
             to={`/details/${movie.media_type || "movie"}/${movie.id}`}
           >
-            <div className="movie-container-child">
+            <div key={`sub${movie.id}`} className="movie-container-child">
               <MovieCard movie={movie} />
               <div className="movie-title">
                 {movie.title ||
