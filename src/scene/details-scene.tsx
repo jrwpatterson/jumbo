@@ -19,8 +19,6 @@ export const DetailsScene = (props: RouteComponentProps) => {
     return null;
   }
 
-  console.log(results);
-
   const dateToUse = results.release_date || results.first_air_date;
 
   const date = DateTime.fromISO(dateToUse).toFormat("yyyy");

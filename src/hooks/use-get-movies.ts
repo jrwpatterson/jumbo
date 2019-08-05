@@ -21,7 +21,6 @@ export const useGetMovies = () => {
       .then(response => response.json())
       .then(json => {
         setLoading(false);
-        console.log(json);
         setResults((json as unknown) as TMDB.Results);
       });
   };
