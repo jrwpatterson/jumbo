@@ -1,0 +1,26 @@
+.movie-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.movie-container-child {
+  height: 220px;
+  width: 150px;
+  margin: 10px;
+  margin-bottom: 100px;
+}
+
+.movie-title {
+  font-size: 17px;
+  margin-top: 10px;
+  text-align: left;
+  color: white;
+}
+
+.movie-date {
+  margin-top: 5px;
+  text-align: left;
+  color: lightblue;
+}

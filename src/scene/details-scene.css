@@ -1,0 +1,39 @@
+.container {
+  width: 100%;
+  max-width: 400px;
+}
+
+.upper-container {
+  border-bottom-color: lightblue;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+}
+
+.outer-container {
+  justify-content: center;
+}
+
+.poster-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.movie-title {
+  font-size: 30px;
+  color: white;
+  left: 50px;
+  position: relative;
+  justify-self: flex-start;
+  align-self: flex-start;
+}
+
+.poster {
+  left: 30px;
+  box-shadow: 5px 3px 3px rgba(0, 0, 0, 0.4);
+
+  position: relative;
+  justify-self: flex-start;
+  align-self: flex-start;
+  top: -50px;
+  border-radius: 15px;
+}

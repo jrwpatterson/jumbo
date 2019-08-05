@@ -1,0 +1,34 @@
+.search-box {
+  color: #01d277;
+  height: 40px;
+  border-radius: 20px;
+  font-size: 17px;
+  padding-left: 20px;
+  font-weight: bold;
+  width: calc(100vw - 40px);
+  max-width: 500px;
+}
+
+.outer-search-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.search-container {
+  width: calc(100vw - 40px);
+  max-width: 500px;
+  display: flex;
+}
+
+.search-icon {
+  position: relative;
+  right: 40px;
+  top: 15px;
+  color: #01d277;
+}
+
+.search-box::placeholder {
+  color: #01d277;
+}

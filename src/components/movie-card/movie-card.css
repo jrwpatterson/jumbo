@@ -1,0 +1,33 @@
+.movie-card {
+  height: 220px;
+  width: 150px;
+  background-size: 150px;
+  border-radius: 15px;
+}
+
+.movie-card-rating {
+  height: 25px;
+  border-radius: 10px;
+  width: 40px;
+  position: relative;
+  color: white;
+  padding-top: 5px;
+  top: 15px;
+  left: 15px;
+  align-content: center;
+  justify-content: center;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.movie-card-rating.good {
+  background-color: #01d277;
+}
+
+.movie-card-rating.ok {
+  background-color: #41189c;
+}
+
+.movie-card-rating.bad {
+  background-color: #c0345c;
+}
